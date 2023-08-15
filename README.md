@@ -10,7 +10,7 @@ I have created an application that is designed to assist patients at a dental cl
 
 
 
-## Screenshots 📸
+<!-- ## Screenshots 📸
 
  <img src="https://user-images.githubusercontent.com/89139437/211010754-62560ee8-8c19-4cd4-b599-182c6ac38f4f.png" width="1000" />
  
@@ -20,7 +20,7 @@ Appointments
 
 Registration 
 
- <img src="https://user-images.githubusercontent.com/89139437/204083557-8859e4a1-91b1-4459-a123-441746e16e55.png" width="1000" />
+ <img src="https://user-images.githubusercontent.com/89139437/204083557-8859e4a1-91b1-4459-a123-441746e16e55.png" width="1000" /> -->
 
 
 # 📝 Features
