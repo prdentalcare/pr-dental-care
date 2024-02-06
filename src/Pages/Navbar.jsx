@@ -22,40 +22,29 @@ const Navbar = () => {
           </HashLink>
         </div>
         <div className={isActive ? 'active_links' : 'links'}>
-          <div className="MenuItems">
-            <HashLink to="/#home" onClick={closeMobileMenu}>
-              Home
-            </HashLink>
+          <div className="ContactItems">
+            <i>Call Us: </i><br />
+            <a className="contact" href="tel:7007889561"><i class="fas fa-phone"> </i>+91 7007889561</a><br/>
+            <a className="contact" href="tel:8726705475"><i class="fas fa-phone"> </i>+91 8726705475</a>
           </div>
-          <div className="MenuItems">
-            <HashLink to="/#about-doctors" onClick={closeMobileMenu}>
-              About
-            </HashLink>
+          <div className="ContactItems">
+            <i>Mail Us: </i><br />
+            <a className="contact" href="mailto:prdentalcareofficial@gmail.com"><i class="fas fa-envelope"> </i>prdentalcareofficial@gmail.com</a>
           </div>
-          <div className="MenuItems">
-            <HashLink to="/#our-services" onClick={closeMobileMenu}>
-              Treatments
-            </HashLink>
-          </div>
-          <div className="MenuItems">
-            <HashLink to="/register" onClick={closeMobileMenu}>
-              Register
-            </HashLink>
-          </div>
-          <div className="MenuItems">
-            <HashLink to="/#contact-us" onClick={closeMobileMenu}>
-              Contact
-            </HashLink>
-          </div>
-          <div className="MenuItems" id="Appointment_menu">
+          {/* <div className="MenuItems" id="Appointment_menu">
             <HashLink to="/dental-clinic/slot" onClick={closeMobileMenu}>
-              Appointment
+              <div className="Appointment"><i class="fas fa-calendar-alt"></i>Book An Appointment</div>
             </HashLink>
+          </div> */}
+        </div>
+        {/* <div className="MenuItems">
+          <div className="user">
+            <i class="fas fa-user-circle fa-lg"></i>
           </div>
-        </div>
-        <div className="toggle_menu_icons" onClick={handleClick}>
-          <i className={isActive ? 'fas fa-times' : 'fas fa-bars'}></i>
-        </div>
+          <HashLink to="/register" onClick={closeMobileMenu}>
+            Register
+          </HashLink>
+        </div> */}
       </div>
     </>
   );

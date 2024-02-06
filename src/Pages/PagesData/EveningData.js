@@ -64,11 +64,11 @@ const EveningData =[
         e_slot_time: "08:30 PM",
           color : ["green","white"],
     },
-    {
-        index:14,
-        e_slot_time: "08:45 PM",
-          color : ["green","white"],
-    },
+    // {
+    //     index:14,
+    //     e_slot_time: "08:45 PM",
+    //       color : ["green","white"],
+    // },
 ];
 
 export default EveningData;

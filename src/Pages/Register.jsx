@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import Logo from "../assets/logo.png";
+import logo_img from './images/logo.png';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Register.css";
@@ -13,6 +13,7 @@ const Register = () => {
 
   const navigate = useNavigate();
   const [loader, setLoader] = useState("none");
+  const [isSubmitDisabled, setIsSubmitDisabled] = useState(false);
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -60,6 +61,8 @@ const Register = () => {
   };
 
   const PostData = async (e) => {
+    console.log("e: ", e);
+    setIsSubmitDisabled(true);
     e.preventDefault();
     const { name, email, password, confirmPassword } = user;
     const requestOptions = {
@@ -84,6 +87,7 @@ const Register = () => {
       const data = await res.json();
       if (data) {
         setLoader("none");
+        setIsSubmitDisabled(false);
       }
       console.log(data);
       toast.error(data.error, toastOptions);
@@ -108,8 +112,7 @@ const Register = () => {
             data-aos="fade-right"
           >
             <div className="brand">
-              <img src={Logo} alt="logo" />
-              <h1>PR's Dental Care</h1>
+              <img src={logo_img} alt="logo" />
             </div>
             <input
               type="text"
@@ -143,7 +146,7 @@ const Register = () => {
               onChange={handleInputs}
               autoComplete="off"
             />
-            <button className="submit_register_btn" type="submit">
+            <button className={isSubmitDisabled ? 'submit_disabled' : 'submit_register_btn'} type="submit" disabled={isSubmitDisabled}>
               Sign Up
               <Spinner id="rg_loder" style={loader} />
             </button>

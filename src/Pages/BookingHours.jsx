@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import EveningData from './PagesData/EveningData';
 import MorningData from './PagesData/MorningData';
-import Logo from '../assets/logo.png';
+import logo_img from './images/logo.png';
 import { ToastContainer, toast } from 'react-toastify';
 import './BookingHours.css';
 import { useNavigate } from 'react-router-dom';
@@ -33,9 +33,11 @@ const BookingHours = () => {
 
   let name, value;
   const handleInputs = (e) => {
+    console.log(e)
     name = e.target.name;
     value = e.target.value;
     setActiveUser({ ...activeUser, [name]: value });
+    console.log(activeUser)
   };
 
   function checkDate(selectedDate) {
@@ -128,15 +130,14 @@ const BookingHours = () => {
     <>
       <div className="booking_section_container">
         <div className="bsc_lower">
+          <div className="brand">
+            <img src={logo_img} alt="logo" />
+          </div>
           <form method="POST" onSubmit={handleSubmit}>
             <div className="bsc_lower_container">
               <div className="bsc_header">
                 <div className="appointment_hours_form">
                   <div className="form_for_booking">
-                    <div className="brand">
-                      <img src={Logo} alt="logo" />
-                      <h1>PR's Dental Care</h1>
-                    </div>
                     <div className="in__container">
                       <label>Choose Date</label>
                       <input
@@ -147,7 +148,7 @@ const BookingHours = () => {
                         value={activeUser.date}
                         onChange={(event) => {
                           const selectedDate = event.target.value;
-                          console.log(selectedDate);
+                          // console.log(selectedDate);
                           if (checkDate(selectedDate)) {
                             handleInputs(event);
                           }
@@ -200,7 +201,7 @@ const BookingHours = () => {
               </div>
               <div className="me_slot_selection">
                 <div className="bsc_lower_morning_container">
-                  <span>Morning and Evening Slots</span>
+                  <span>Morning Slots</span>
                   <div className="morning_info_container" id="container45">
                     {MorningData.map((data, index) => {
                       return (
@@ -228,6 +229,7 @@ const BookingHours = () => {
                 </div>
                 <hr />
                 <div className="bsc_lower_evening_container">
+                  <span>Evening Slots</span>
                   <div className="evening_info_container">
                     {EveningData.map((data, index) => {
                       return (

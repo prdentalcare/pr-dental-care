@@ -29,8 +29,7 @@
 .service_image_details {
   width: 306px;
   height: 139px;
-  filter: invert(66%) sepia(40%) saturate(493%) hue-rotate(86deg)
-    brightness(92%) contrast(88%);
+  filter: invert(66%) sepia(41%) saturate(493%) hue-rotate(140deg) brightness(92%) contrast(88%) drop-shadow(8px 8px 10px rgb(4, 90, 120));
 }
 .service_info {
   display: flex;

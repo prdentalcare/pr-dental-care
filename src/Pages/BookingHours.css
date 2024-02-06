@@ -3,11 +3,15 @@
   display: flex;
   position: absolute;
 }
+.brand {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .in__container {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  color: #e1dddd;
+  color: #fff;
 }
 .in__container label {
   padding-left: 3px;
@@ -18,27 +22,24 @@
 }
 input[type='date'] {
   background: transparent;
-  color: white;
+  color: #6a6a6a;
 }
 
 input[type='date']::-webkit-calendar-picker-indicator {
   filter: invert(100%);
 }
 .bsc_lower {
-  background-color: #131324;
+  background-color: #defff7;
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
   flex-direction: column;
+  height: auto;
 }
 .bsc_lower_container {
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
-  height: 573px;
 }
 .bsc_lower_evening_container,
 .bsc_lower_morning_container {
@@ -52,7 +53,8 @@ input[type='date']::-webkit-calendar-picker-indicator {
 .me_slot_selection {
   display: flex;
   padding: 20px 15px 15px 15px;
-  background: #332144;
+  background: #105b63;
+  border-radius: 0.4rem;
 }
 .md_data,
 .ed_data {
@@ -65,7 +67,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
   justify-content: center;
   align-content: center;
   background: #fff;
-  border: 1px solid green;
+  border: 1px solid #2e9078;
   border-radius: 5px;
   cursor: pointer;
   transition: ease-in-out 0.4s;
@@ -80,12 +82,12 @@ input[type='date']::-webkit-calendar-picker-indicator {
 .md_data:hover,
 .ed_data:hover {
   color: #fff;
-  background-color: green;
-  border: 2px solid green;
+  background-color: #2e9078;
+  border: 2px solid #2e9078;
 }
 .md_data:active,
 .ed_data:active {
-  background-color: green;
+  background-color: #2e9078;
 }
 .bsc_header_info {
   background: #e0e0e0;
@@ -136,8 +138,11 @@ input[type='date']::-webkit-calendar-picker-indicator {
   justify-content: center;
 }
 .booking_c_btn:hover {
-  color: #fff;
-  background-color: #0792e0;
+  background-color: #defff7;
+  border-color: #defff7;
+}
+.booking_c_btn:hover span {
+  color: #000;
 }
 
 .submit_btn:active {
@@ -178,11 +183,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 3rem 5rem;
-  height: 573px;
-  border-radius: 0;
-  background: #5f606121;
-  border-bottom: 7px solid white;
+  background: #105b63;
 }
 form {
   background: none;
@@ -200,7 +201,7 @@ form {
   justify-content: center;
   align-content: center;
   height: 45px;
-  background: green;
+  background: #2e9078;
   color: #fff;
   border: none;
   border-radius: 0.4rem;
@@ -208,16 +209,16 @@ form {
 }
 .form_for_booking input {
   padding: 1rem;
-  border: none;
-  color: #6a6a6a !important;
+  color: #fff !important;
   border-radius: 0.4rem;
-  border: 1px solid #8b8b8ba1;
+  border: 1px solid #fff;
   width: 100%;
   font-size: 1rem;
 }
 @media screen and (min-width: 1024px) {
   .bsc_lower {
-    background-color: #131324;
+    background-color: #defff7;
+    height: auto;
   }
   .booking_section_container {
     height: 100%;
@@ -235,9 +236,11 @@ form {
     gap: 9px;
   }
   .form_for_booking {
-    background: #2a2a2a70;
-    padding: 1rem 2rem !important;
-    gap: 1.5rem !important;
+    background: #105b63;
+    padding: 2rem 5rem !important;
+    gap: 1rem !important;
+    height: 425px;
+    border-radius: 0.4rem;
   }
   .booking_c_btn {
     margin-top: 7px;
@@ -275,10 +278,12 @@ form {
   .me_slot_selection {
     flex-direction: column;
     width: 450px;
+    border-radius: 0.4rem;
   }
   .bsc_lower_morning_container,
   .bsc_lower_evening_container {
-    height: 441px;
+    height: auto;
+    margin-bottom: 15px;
   }
   .morning_info_container,
   .evening_info_container {
@@ -303,12 +308,14 @@ form {
   }
   .bsc_lower_container span {
     font-size: 22px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .form_for_booking {
     height: 100%;
     padding: 40px 35px;
     width: 100%;
+    border-radius: 0.4rem;
   }
 }
 

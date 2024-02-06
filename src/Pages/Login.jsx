@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Logo from '../assets/logo.png';
+import logo_img from './images/logo.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
 import Spinner from '../Components/Spinner';
+
 const Login = () => {
   const url = "https://pr-dental-service.onrender.com/login_user";
   const navigate = useNavigate();
 
   const [loader, setLoader] = useState('none');
+  const [isSubmitDisabled, setIsSubmitDisabled] = useState(false);
   const [values, setValues] = useState({
     email: '',
     password: '',
@@ -41,6 +43,7 @@ const Login = () => {
   };
 
   const PostData = async (event) => {
+    setIsSubmitDisabled(true);
     event.preventDefault();
 
     const { email, password } = values;
@@ -61,6 +64,7 @@ const Login = () => {
 
       if (data) {
         setLoader('none');
+        setIsSubmitDisabled(false);
       }
       console.log(data);
 
@@ -80,8 +84,7 @@ const Login = () => {
         <div className="form_container_for_login">
           <form method="POST" className="login_u_form" onSubmit={PostData}>
             <div className="brand">
-              <img src={Logo} alt="logo" />
-              <h1>PR's Dental Care</h1>
+              <img src={logo_img} alt="logo" />
             </div>
             <input
               type="text"
@@ -95,8 +98,8 @@ const Login = () => {
               name="password"
               onChange={(e) => handleChange(e)}
             />
-            <button className="login_form_button" type="submit">
-              Login In
+            <button className={isSubmitDisabled ? 'submit_disabled' : 'login_form_button'} type="submit" disabled={isSubmitDisabled}>
+              Login
               <Spinner id="login_loder" style={loader} />
             </button>
             <span className="lower_title_login">

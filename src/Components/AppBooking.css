@@ -1,0 +1,17 @@
+.book_appointment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 67px;
+  position: fixed;
+  z-index: 100;
+  background: #936329;
+  bottom: 0;
+  text-decoration: none;
+}
+.book_appointment_text { 
+  color: #fff;
+  font-size: 18px;
+}

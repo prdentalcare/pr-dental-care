@@ -8,9 +8,9 @@ const Services = () => {
         <div className="services_container">
           <h2 className="services_header">
             <span>
-              <i class="fa-solid fa-angles-right"></i>
+              <i class="fa-solid fa-caret-right"></i>
             </span>
-            Our Treatments
+            Our Services
           </h2>
           <div className="service_info_container">
             {ServiceData.map((e, index) => (

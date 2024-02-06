@@ -1,10 +1,10 @@
 .contact_section_container {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  align-content: center;
+  align-content: center; */
   width: 100%;
-  flex-direction: column;
+  /* flex-direction: column; */
   background-color: #ffffff;
 }
 .container_container {
@@ -54,22 +54,57 @@
 }
 .direction_to_clinic,
 .call_to_clinic {
-  width: 150px;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
   height: 45px;
-  outline: 2px solid #003380;
+  outline: 2px solid #105b63;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  color: #fff;
 }
 
 .direction_to_clinic a,
 .call_to_clinic a {
   text-decoration: none;
   font-size: 15px;
-  color: #003380;
+  color: #105b63;
   font-weight: 500;
   text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.direction_to_clinic a:after,
+.call_to_clinic a:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.direction_to_clinic:hover,
+.call_to_clinic:hover {
+  background-color: #105b63;
+}
+
+.direction_to_clinic:hover a,
+.call_to_clinic:hover a {
+  padding-right: 25px;
+  color: #fff;
+}
+
+.direction_to_clinic:hover a:after,
+.call_to_clinic:hover a:after {
+  opacity: 1;
+  right: 0;
 }
 
 .clinic_timing {
@@ -81,7 +116,10 @@
   flex-wrap: wrap;
   border-bottom: 1px solid;
   height: 60px;
-  padding: 12px;
+  margin: 12px;
+  .current_day {
+    font-weight: 600;
+  }
 }
 .copyright_footer {
   color: #fff;
@@ -91,11 +129,11 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  background: #141b2c;
+  background: #105b63;
   flex-wrap: wrap;
 }
 #clinic_name {
-  color: #0396fe;
+  color: #e0cf82;
   margin: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -116,7 +154,7 @@
   }
   .basic_contact_user_form {
     padding: 25px;
-    width: 490px;
+    width: 60%;
     margin-right: 20px;
   }
   .google_map_location {
@@ -149,6 +187,11 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .google_map_location {
+    padding-top: 75px;
+  }
+}
 @media screen and (max-width: 480px) {
   .basic_contact_user_form {
     padding: 20px;
@@ -182,6 +225,10 @@
   }
   .contact_section_container {
     height: 100%;
-    padding: 30px 0;
+    /* padding: 30px 0; */
   }
+}
+#teeth_color {
+  margin: 0;
+  color: #936329;
 }

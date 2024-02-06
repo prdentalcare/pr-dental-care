@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  background: #020b31;
+  background: #2e9078;
   align-content: center;
   justify-content: center;
   padding: 30px;
@@ -91,7 +91,7 @@
 .rp_compile_container p,
 .wrapper_container_ab p {
   line-height: 27px;
-  color: #b1b1b1;
+  color: #fff;
   font-weight: 500;
 }
 

@@ -1,28 +1,26 @@
 .nav-container {
   display: flex;
   flex-direction: row;
-  align-content: center;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 1px 4px 0px #c8c8c8;
-  position: sticky;
-  top: 0;
-  z-index: 1020;
-  height: 72px;
-  background: #fff;
+  box-shadow: 0px 1px 4px 1px #c8c8c8;
+  /* position: sticky; */
+  height: 90px;
+  background: #eee;
   width: 100%;
 }
 
 .logo {
+  padding: 2rem;
   display: flex;
-  width: 232px;
+  width: 16rem;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .logo img {
-  width: 69px;
-  height: 69px;
+  width: 100%;
+  /* filter: drop-shadow(-2px -2px 1px grey); */
 }
 .logo h2 {
   font-weight: 500;
@@ -45,7 +43,7 @@
   font-size: 18px;
   line-height: 45px;
   text-align: left;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,6 +69,9 @@
   bottom: 0;
   height: 1px;
   width: 50%;
+}
+.DisplayNone {
+  display: none;
 }
 
 .active_links {
@@ -154,5 +155,71 @@
     transition: ease-in-out 0.3s;
   }
 }
-@media screen and (min-width: 1024px) {
+
+.Appointment {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 45px;
+  color: #936329;
+  width: 230px;
+  outline: 1px solid #936329;
+  justify-content: center;
+  align-content: center;
+  line-height: 24px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #936329;
+  transition: ease-in-out 0.3s;
+  font-family: Poppins, sans-serif;
+  cursor: pointer;
+}
+.Appointment:hover {
+  color: #fff;
+  outline: 1px solid #936329;
+  box-shadow: inset 230px 0 0 0 #936329;
+}
+.Appointment:active {
+  transform: scale(0.9);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.Appointment i {
+  margin-right: 5px;
+}
+.user {
+  color: #105b63;
+}
+
+.ContactItems i {
+  color: #9a9a9a;
+}
+.contact {
+  color: black;
+  text-decoration: none;
+}
+.contact i {
+  color: #105b63;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.ContactItems {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ContactItems a {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.ContactItems a:hover,
+.ContactItems a:active {
+  transform: scale(0.97);
+  transition: ease-in-out 0.4;
+  filter: drop-shadow(0 3px 1px #e0cf82);
+}
+
+@media screen and (max-width: 900px) {
+  .nav-container {
+    position: fixed;
+    height: 70px;
+    z-index: 1020;
+  }
 }

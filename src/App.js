@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Pages/Navbar';
+import SubNavbar from './Pages/SubNavbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Appointment from './Pages/Appointment';
@@ -13,7 +14,7 @@ import ChatApp from './Pages/ChatApp';
 import BookingHours from './Pages/BookingHours';
 import Profile from './Pages/Profile';
 import UserProfile from './Pages/UserProfile';
-import ApBooking from './Components/ApBooking';
+// import AppBooking from './Components/AppBooking';
 import Dashboard from './Pages/PagesData/Admin/Dashboard';
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-
+      <SubNavbar />
       <Routes>
         <Route
           exact
@@ -37,7 +38,7 @@ const App = () => {
           element={
             <>
               <Home />
-              <ApBooking />
+              {/* <AppBooking /> */}
               <About />
               <Services />
               <Contact />
@@ -52,7 +53,7 @@ const App = () => {
         {/* <Route exact path="/dental-clinic/treatments" element={} /> */}
         {/* <Route exact path="/dental-clinic/contact" element={} /> */}
         <Route exact path="/register" element={<Register />} />
-        <Route exact path="/dental-clinic/team" element={<Profile />} />
+        <Route exact path="/our-doctor" element={<Profile />} />
         <Route exact path="/login_user" element={<Login />} />
         <Route
           exact
