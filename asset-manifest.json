@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pr-dental-care/static/css/main.39b8b029.css",
+    "main.css": "/pr-dental-care/static/css/main.38f6cd77.css",
     "main.js": "/pr-dental-care/static/js/main.7f46d3ed.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/pr-dental-care/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/slide_two.png": "/pr-dental-care/static/media/slide_two.a4dbd81b673d68d22509.png",
@@ -17,11 +17,11 @@
     "static/media/site_con.jpg": "/pr-dental-care/static/media/site_con.e7a6921b6a59c7cefc56.jpg",
     "static/media/appointment_admin_img.png": "/pr-dental-care/static/media/appointment_admin_img.ead77caea6d44a2ccc4f.png",
     "index.html": "/pr-dental-care/index.html",
-    "main.39b8b029.css.map": "/pr-dental-care/static/css/main.39b8b029.css.map",
+    "main.38f6cd77.css.map": "/pr-dental-care/static/css/main.38f6cd77.css.map",
     "main.7f46d3ed.js.map": "/pr-dental-care/static/js/main.7f46d3ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.39b8b029.css",
+    "static/css/main.38f6cd77.css",
     "static/js/main.7f46d3ed.js"
   ]
 }
