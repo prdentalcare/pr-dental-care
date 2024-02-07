@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/pr-dental-care/static/css/main.0f838b96.css",
-    "main.js": "/pr-dental-care/static/js/main.98c2bf94.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/pr-dental-care/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/slide_two.png": "/pr-dental-care/static/media/slide_two.a4dbd81b673d68d22509.png",
-    "static/media/logo.png": "/pr-dental-care/static/media/logo.aa9298bdce1f586c60ae.png",
-    "static/media/fontawesome-webfont.eot": "/pr-dental-care/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/pr-dental-care/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/slide_one.png": "/pr-dental-care/static/media/slide_one.7447609e59c66d9b3605.png",
-    "static/media/slide_three.png": "/pr-dental-care/static/media/slide_three.450dc40f7d37d2c54668.png",
-    "static/media/about_img.webp": "/pr-dental-care/static/media/about_img.73697ce3b788b82dffa5.webp",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/pr-dental-care/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/pr-dental-care/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/female_profile_img.png": "/pr-dental-care/static/media/female_profile_img.856a900828755c4fc4d3.png",
-    "static/media/footer_01.jpg": "/pr-dental-care/static/media/footer_01.8278da38b973ab9088fa.jpg",
-    "static/media/site_con.jpg": "/pr-dental-care/static/media/site_con.e7a6921b6a59c7cefc56.jpg",
-    "static/media/appointment_admin_img.png": "/pr-dental-care/static/media/appointment_admin_img.ead77caea6d44a2ccc4f.png",
-    "index.html": "/pr-dental-care/index.html",
-    "main.0f838b96.css.map": "/pr-dental-care/static/css/main.0f838b96.css.map",
-    "main.98c2bf94.js.map": "/pr-dental-care/static/js/main.98c2bf94.js.map"
+    "main.css": "/static/css/main.5ca97eea.css",
+    "main.js": "/static/js/main.e56bfcdc.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/slide_two.png": "/static/media/slide_two.a4dbd81b673d68d22509.png",
+    "static/media/logo.png": "/static/media/logo.aa9298bdce1f586c60ae.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/slide_one.png": "/static/media/slide_one.7447609e59c66d9b3605.png",
+    "static/media/slide_three.png": "/static/media/slide_three.450dc40f7d37d2c54668.png",
+    "static/media/about_img.webp": "/static/media/about_img.73697ce3b788b82dffa5.webp",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/female_profile_img.png": "/static/media/female_profile_img.856a900828755c4fc4d3.png",
+    "static/media/footer_01.jpg": "/static/media/footer_01.8278da38b973ab9088fa.jpg",
+    "static/media/site_con.jpg": "/static/media/site_con.e7a6921b6a59c7cefc56.jpg",
+    "static/media/appointment_admin_img.png": "/static/media/appointment_admin_img.ead77caea6d44a2ccc4f.png",
+    "index.html": "/index.html",
+    "main.5ca97eea.css.map": "/static/css/main.5ca97eea.css.map",
+    "main.e56bfcdc.js.map": "/static/js/main.e56bfcdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f838b96.css",
-    "static/js/main.98c2bf94.js"
+    "static/css/main.5ca97eea.css",
+    "static/js/main.e56bfcdc.js"
   ]
 }
