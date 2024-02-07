@@ -6,6 +6,9 @@
 #home {
   padding: 0 0 10px 0;
 }
+section {
+  padding-top: 30px !important;
+}
 .slider_image {
   width: 43%;
 }
@@ -210,9 +213,6 @@
   }
   .slider-images {
     height: 500px;
-  }
-  section {
-    padding-top: 30px !important;
   }
 }
 @media screen and (max-width: 580px) {
