@@ -18,17 +18,20 @@ const SubNavbar = () => {
         <div className={isActive ? 'active_links' : 'links'}>
           <div className="SubMenuItems">
             <HashLink to="/#home" onClick={closeMobileMenu}>
-              Home
+              <i class="fa-solid fa-house-medical"></i>
+              <span>Home</span>
             </HashLink>
           </div>
           <div className="SubMenuItems">
             <HashLink to="/#about-us" onClick={closeMobileMenu}>
-              About
+              <i class="fa-solid fa-suitcase-medical"></i>
+              <span>About</span>
             </HashLink>
           </div>
           <div className="SubMenuItems">
             <HashLink to="/#our-services" onClick={closeMobileMenu}>
-              Services
+              <i class="fa-solid fa-hand-holding-medical"></i>
+              <span>Services</span>
             </HashLink>
           </div>
           {/* <div className="SubMenuItems">
@@ -53,7 +56,8 @@ const SubNavbar = () => {
           </div> */}
           <div className="SubMenuItems">
             <HashLink to="/#contact-us" onClick={closeMobileMenu}>
-              Contact Us
+              <i class="fa-solid fa-comment-medical fa-flip-horizontal"></i>
+              <span>Contact Us</span>              
             </HashLink>
           </div>
         </div>

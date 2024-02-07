@@ -269,12 +269,10 @@ section {
     outline: 1px solid #000;
   }
   #info_01,
-  #info_02 {
+  #info_02,
+  #info_03 {
     background-color: #ffffff;
     color: #000;
-  }
-  #info_03 {
-    display: none;
   }
 }
 

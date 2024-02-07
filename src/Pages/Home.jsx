@@ -35,12 +35,11 @@ const Home = () => {
                   We Care For Your Smile
                 </h2>
                 <p>
-                  We Believe Everyone should have easy access to great dental
-                  clinic
+                  Caring For The Health And Well Being Of You And Your Family
                 </p>
                 <div className="social_links"></div>
               </div>
-              <div className="slider_controls">
+              {/* <div className="slider_controls">
                 <div className="circle_dot_class">
                   <span></span>
                 </div>
@@ -50,7 +49,7 @@ const Home = () => {
                 <div className="circle_dot_class">
                   <span></span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
