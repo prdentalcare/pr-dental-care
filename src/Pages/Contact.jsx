@@ -5,34 +5,35 @@ const Contact = () => {
   const clinic_data = [
     {
       id: 1,
-      c_day: 'Sunday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+      c_day: 'Sunday - Friday',
+      c_time: 'Morning: 11:00 AM-1:30 PM',
+      c_evening_time: 'Evening: 05:30 AM-08:30 PM'
     },
-    {
-      id: 2,
-      c_day: 'Monday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
-    },
-    {
-      id: 3,
-      c_day: 'Tuesday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
-    },
-    {
-      id: 4,
-      c_day: 'Wednesday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
-    },
-    {
-      id: 5,
-      c_day: 'Thursday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
-    },
-    {
-      id: 6,
-      c_day: 'Friday',
-      c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
-    },
+    // {
+    //   id: 2,
+    //   c_day: 'Monday',
+    //   c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+    // },
+    // {
+    //   id: 3,
+    //   c_day: 'Tuesday',
+    //   c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+    // },
+    // {
+    //   id: 4,
+    //   c_day: 'Wednesday',
+    //   c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+    // },
+    // {
+    //   id: 5,
+    //   c_day: 'Thursday',
+    //   c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+    // },
+    // {
+    //   id: 6,
+    //   c_day: 'Friday',
+    //   c_time: '11:00 AM-1:30 PM | 05:30 AM-08:30 PM'
+    // },
     {
       id: 7,
       c_day: 'Saturday',
@@ -70,7 +71,10 @@ const Contact = () => {
               {clinic_data.map((e, index) => (
                 <div className="clinic_timing" key={index}>
                   <p className="current_day">{e.c_day}</p>
-                  <p className="current_day_timing">{e.c_time}</p>
+                  <div>
+                    <p>{e.c_time}</p>
+                    <p>{e.c_evening_time}</p>
+                  </div>
                 </div>
               ))}
               <div className="d_and_c">
@@ -84,7 +88,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="call_to_clinic">
-                  <a href="tel:7007889561">Call Clinic</a>
+                  <a href="tel:8726705475">Call Clinic</a>
                 </div>
               </div>
             </div>

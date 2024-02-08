@@ -118,8 +118,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   border-bottom: 1px solid;
-  height: 60px;
-  margin: 12px;
   .current_day {
     font-weight: 600;
   }

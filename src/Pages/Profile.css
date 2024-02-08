@@ -15,8 +15,8 @@
   justify-content: space-evenly;
   align-content: center;
   flex-direction: column;
-  width: 400px;
-  height: 500px;
+  width: 90%;
+  height: 100%;
   padding: 15px 20px;
   backdrop-filter: blur(6px);
   background-color: #ffffff4a;
@@ -28,8 +28,10 @@
   height: 185px;
   border: 1px solid #000000;
   box-shadow: 0 0 6px 1px #c2c0c0ba;
+  margin-top: 1rem;
 }
 .profile_info {
+  margin-top: 1rem;
   text-align: center;
 }
 .profile_name {
@@ -41,6 +43,7 @@
   font-weight: 500;
 }
 .profile_description {
+  margin-top: 1rem;
   width: 86%;
   text-align: justify;
 }
@@ -68,11 +71,6 @@
     height: 100vh;
   }
 }
-@media screen and (max-width: 940px) {
-  .profile_section_container h2 {
-    width: 90%;
-  }
-}
 
 @media screen and (max-width: 720px) {
   .p_info_container {
@@ -82,7 +80,6 @@
 @media screen and (max-width: 580px) {
   .profile_section_container {
     gap: 0;
-    height: auto;
   }
   .p_info_container {
     flex-direction: column;
@@ -98,10 +95,13 @@
   .profile_section_container h2 {
     margin-top: 54px;
   }
-  .profile_details {
-    width: 90%;
-  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 900px) {
+  section {
+    padding: 0 !important;
+  }
+  .profile_section_container {
+    height: 84vh;
+  }
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./About.css";
 import about_img from "./images/about_img.webp";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import about_long_des_data from "./PagesData/AboutData";
 const About = () => {
   return (
@@ -27,12 +28,12 @@ const About = () => {
                 </p>
                 <p className="about_long_descrp">{about_long_des_data.text}</p>
                 <div className="about_align_btn">
-                  <Link
+                  <HashLink
                     to={"/our-doctor"}
                     style={{ textDecoration: "none", color: "#fff" }}
                   >
                     <button className="more_info_btn">Read More</button>
-                  </Link>
+                  </HashLink>
                 </div>
               </div>
               <div className="about_image">

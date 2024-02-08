@@ -25,14 +25,14 @@ const Home = () => {
               <div className="front_page_info">
                 <h2
                   style={{
-                    fontSize: "51px",
+                    fontSize: "40px",
                     margin: "0",
                     textAlign: "left",
                     lineHeight: "1.2",
                     color: "hsl(218, 70%, 18%);",
                   }}
                 >
-                  We Care For Your Smile
+                  Providing Quality Dental Care Since 2023
                 </h2>
                 <p>
                   Caring For The Health And Well Being Of You And Your Family
@@ -65,7 +65,7 @@ const Home = () => {
                 to={"/#contact-us"}
                 style={{ textDecoration: "none", color: "#fff" }}
               >
-                <div className="transperent_btn">Chat with Doctor</div>
+                <div className="transperent_btn">Check Dr Availabilty</div>
               </HashLink>
             </div>
             <div className="basic_info" id="info_02">
