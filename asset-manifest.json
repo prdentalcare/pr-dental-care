@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8cda404.css",
-    "main.js": "/static/js/main.ddcd2db4.js",
+    "main.css": "/static/css/main.b92d91ea.css",
+    "main.js": "/static/js/main.9e0c3f88.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/slide_two.png": "/static/media/slide_two.a4dbd81b673d68d22509.png",
     "static/media/logo.png": "/static/media/logo.aa9298bdce1f586c60ae.png",
@@ -17,11 +17,11 @@
     "static/media/site_con.jpg": "/static/media/site_con.e7a6921b6a59c7cefc56.jpg",
     "static/media/appointment_admin_img.png": "/static/media/appointment_admin_img.ead77caea6d44a2ccc4f.png",
     "index.html": "/index.html",
-    "main.b8cda404.css.map": "/static/css/main.b8cda404.css.map",
-    "main.ddcd2db4.js.map": "/static/js/main.ddcd2db4.js.map"
+    "main.b92d91ea.css.map": "/static/css/main.b92d91ea.css.map",
+    "main.9e0c3f88.js.map": "/static/js/main.9e0c3f88.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8cda404.css",
-    "static/js/main.ddcd2db4.js"
+    "static/css/main.b92d91ea.css",
+    "static/js/main.9e0c3f88.js"
   ]
 }
