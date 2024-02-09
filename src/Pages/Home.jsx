@@ -29,7 +29,7 @@ const Home = () => {
                     margin: "0",
                     textAlign: "left",
                     lineHeight: "1.2",
-                    color: "hsl(218, 70%, 18%);",
+                    color: "hsl(218, 70%, 18%)",
                   }}
                 >
                   Providing Quality Dental Care Since 2023

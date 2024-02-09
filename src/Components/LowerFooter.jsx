@@ -50,22 +50,22 @@ function LowerFooter() {
   const contact_link = [
     {
       index: 1,
-      img: <i class="fa-brands fa-facebook-f"></i>,
+      img: <i className="fa-brands fa-facebook-f"></i>,
       on_link: 'https://www.facebook.com/profile.php?id=100092200688666',
     },
     {
       index: 2,
-      img: <i class="fa-brands fa-instagram"></i>,
+      img: <i className="fa-brands fa-instagram"></i>,
       on_link: 'https://instagram.com/prdentalcare_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D',
     },
     {
       index: 3,
-      img: <i class="fa-brands fa-whatsapp"></i>,
+      img: <i className="fa-brands fa-whatsapp"></i>,
       on_link: 'https://whatsapp.com/channel/0029VaAGaGk42DcgoXaV5i2r',
     },
     // {
     //   index: 4,
-    //   img: <i class="fa-sharp fa-solid fa-globe"></i>,
+    //   img: <i className="fa-sharp fa-solid fa-globe"></i>,
     //   on_link: 'https://prdentalcare.com/',
     // },
   ];

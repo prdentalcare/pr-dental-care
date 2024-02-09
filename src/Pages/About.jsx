@@ -16,7 +16,7 @@ const About = () => {
           <div className="about_section_container">
             <h2 className="about_title">
               <span className="about_title_logo">
-                <i class="fa-solid fa-caret-right"></i>
+                <i className="fa-solid fa-caret-right"></i>
               </span>
               About US
             </h2>

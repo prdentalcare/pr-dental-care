@@ -8,7 +8,7 @@ const Services = () => {
         <div className="services_container">
           <h2 className="services_header">
             <span>
-              <i class="fa-solid fa-caret-right"></i>
+              <i className="fa-solid fa-caret-right"></i>
             </span>
             Our Services
           </h2>

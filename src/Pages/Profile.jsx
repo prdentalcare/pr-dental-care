@@ -10,7 +10,7 @@ const Profile = () => {
       name: "Dr. Rani",
       occupation: "Dental Surgeon BDS",
       description:
-        "Dr. Rani is a talented dentist with over three years of experience. She's worked in Hyderabad, Gorakhpur, and Jhansi under experienced mentors. Dr. Rani was the top student in her dental college every year, showing her dedication and skill. She's known for doing excellent work and being patient with her patients. She's committed to giving each person personalized care and making their dental experience comfortable.",
+        "Dr. Rani is a highly skilled dentist with over three years of experience. She has worked in Hyderabad, Gorakhpur, and Jhansi under experienced professionals, excelling in all aspects of dental procedures. Graduated as the top student in her dental college every year, She is dedicated to provide exceptional care to her patients, leveraging her expertise and commitment to excellence in every treatment she performs. Known for her quality work and patience, She ensures that each patient receives personalized attention and compassionate care throughout their dental journey.",
     },
     /* {
       id: 2,
@@ -18,7 +18,7 @@ const Profile = () => {
       name: "Dr.Komal Achare",
       occupation: "Dental Surgeon BDS",
       description:
-        "Rani Ahirwar (BDS) is a highly skilled dentist with over three years of experience. She has worked in Hyderabad, Gorakhpur, and Jhansi under seasoned professionals, excelling in all aspects of dental procedures. Graduating as the top student in her dental college, Dr. Ahirwar is dedicated to providing exceptional care to her patients, leveraging her expertise and commitment to excellence in every treatment she performs. Known for her quality work and patience, Dr. Ahirwar ensures that each patient receives personalized attention and compassionate care throughout their dental journey.",
+        "Dr. Rani is a talented dentist with over three years of experience. She worked in Hyderabad, Gorakhpur, and Jhansi under experienced mentors. Dr. Rani was the top student in her dental college every year, showing her dedication and skill. She's known for doing excellent work and being patient with her patients. She's committed to giving each person personalized care and making their dental experience comfortable.",
     }, */
   ];
   return (

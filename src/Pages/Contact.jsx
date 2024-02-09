@@ -49,11 +49,11 @@ const Contact = () => {
               <div className="gmap">
                 <iframe
                   title="gmap_location"
-                  class="gmap_iframe"
+                  className="gmap_iframe"
                   width="100%"
-                  frameborder="0"
-                  marginheight="0"
-                  marginwidth="0"
+                  frameBorder="0"
+                  marginHeight="0"
+                  marginWidth="0"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.6195309829945!2d77.45562227550003!3d28.611188675676413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef6fc5b5e259%3A0xe06a3a734a68b337!2sPR&#39;s%20Dental%20Care!5e0!3m2!1sen!2sin!4v1693076122989!5m2!1sen!2sin"
                 ></iframe>
               </div>
@@ -72,8 +72,8 @@ const Contact = () => {
                 <div className="clinic_timing" key={index}>
                   <p className="current_day">{e.c_day}</p>
                   <div>
-                    <p>{e.c_time}</p>
-                    <p>{e.c_evening_time}</p>
+                    <p className="current_day_timing">{e.c_time}</p>
+                    <p className="current_day_timing">{e.c_evening_time}</p>
                   </div>
                 </div>
               ))}

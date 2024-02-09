@@ -122,6 +122,10 @@
     font-weight: 600;
   }
 }
+.current_day_timing {
+  text-align: right;
+}
+
 .copyright_footer {
   color: #fff;
   width: 100%;
