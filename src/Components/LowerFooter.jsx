@@ -161,6 +161,18 @@ function LowerFooter() {
           </div>
         </div> */}
       </div>
+      <div className="copyright_footer">
+        <p>
+          <span>
+            <i className="fa-regular fa-copyright"></i>
+          </span>
+          2023 All Rights Reserved.
+          Made with <span id='teeth_color'>🦷</span> by
+          <a href="/" id="clinic_name">
+            PR's Dental Care.
+          </a>
+        </p>
+      </div>
     </>
   );
 }

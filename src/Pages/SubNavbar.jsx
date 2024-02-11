@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import 'font-awesome/css/font-awesome.min.css';
 import './SubNavbar.css';
+
 const SubNavbar = () => {
   const [isActive, setActive] = useState(false);
 

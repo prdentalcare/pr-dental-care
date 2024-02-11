@@ -25,8 +25,8 @@ const Services = () => {
                   src={e.img_src}
                   alt="dental images"
                 />
-                <h2 className="service__title">{e.title}</h2>
-                <p className="service_detail_info">{e.description}</p>
+                <h2 className="service_title">{e.title}</h2>
+                {/* <p className="service_detail_info">{e.description}</p> */}
               </div>
             ))}
           </div>

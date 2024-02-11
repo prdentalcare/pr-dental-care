@@ -7,7 +7,7 @@
   align-content: center;
 }
 .services_container h2 {
-  width: 90%;
+  width: 85%;
   color: #232323;
   font-size: 27px;
 }
@@ -27,16 +27,18 @@
   flex-wrap: wrap;
 }
 .service_image_details {
-  width: 306px;
-  height: 139px;
-  filter: invert(66%) sepia(41%) saturate(493%) hue-rotate(140deg) brightness(92%) contrast(88%) drop-shadow(8px 8px 10px rgb(4, 90, 120));
+  width: 100%;
+  height: 80%;
+}
+.service_title {
+  filter: brightness(92%) contrast(88%) drop-shadow(0 0 2px rgb(4, 90, 120));
 }
 .service_info {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  height: 270px;
+  height: 400px;
   width: 350px;
   align-items: center;
   text-align: center;
@@ -67,7 +69,7 @@
 @media screen and (min-width: 1024px) {
   .service_info {
     width: 430px;
-    height: 272px;
+    height: 450px;
     justify-content: center;
   }
   .service_info_container {

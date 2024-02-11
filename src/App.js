@@ -16,6 +16,8 @@ import Profile from './Pages/Profile';
 import UserProfile from './Pages/UserProfile';
 // import AppBooking from './Components/AppBooking';
 import Dashboard from './Pages/PagesData/Admin/Dashboard';
+// import Testimonials from './Pages/Testimonials';
+import LowerFooter from './Components/LowerFooter';
 
 const App = () => {
   // const [currentUser, setCurrentUser] = useState(undefined);
@@ -42,6 +44,8 @@ const App = () => {
               <About />
               <Services />
               <Contact />
+              {/* <Testimonials /> */}
+              <LowerFooter />
             </>
           }
         />
