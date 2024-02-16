@@ -7,8 +7,8 @@ const Testimonials = () => {
   useEffect(() => {
     // const accountId = 6863843904533027053;
     // const locationId=;
-    const placeId='ChIJWeK1xW_vDDkRN7NoSnM6auA';
-    const apiKey = 'AIzaSyBr6NfViI3IlpQEyli9Ev6B6jg3OYGpqZ4';
+    // const placeId='ChIJWeK1xW_vDDkRN7NoSnM6auA';
+    // const apiKey = 'AIzaSyBr6NfViI3IlpQEyli9Ev6B6jg3OYGpqZ4';
     const fetchReviews = async () => {
       try {
         // Fetch Google reviews from your API or directly from Google Places API
