@@ -164,6 +164,7 @@
   }
   .google_map_location {
     width: 80%;
+    margin-top: 10%;
     margin-bottom: 30px;
   }
   .clinic_timing {
@@ -184,6 +185,7 @@
     flex-direction: column;
   }
   .google_map_location {
+    margin-top: 5%;
     width: 100%;
   }
   .basic_contact_user_form {
