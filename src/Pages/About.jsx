@@ -3,7 +3,7 @@ import styles from "./About.css";
 import about_img from "./images/about_img.webp";
 // import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import about_long_des_data from "./PagesData/AboutData";
+import about_data from "./PagesData/AboutData";
 const About = () => {
   return (
     <>
@@ -22,17 +22,14 @@ const About = () => {
             </h2>
             <div className="about_container">
               <div className="about_infos">
-                <p className="about_short_descrp">
-                  We’re glad you hand your dental health concerns to our skilled
-                  hands.
-                </p>
-                <p className="about_long_descrp">{about_long_des_data.text}</p>
+                <p className="about_short_descrp">{about_data.header}</p>
+                <p className="about_long_descrp">{about_data.description}</p>
                 <div className="about_align_btn">
                   <HashLink
                     to={"/our-doctor"}
                     style={{ textDecoration: "none", color: "#fff" }}
                   >
-                    <button className="more_info_btn">Read More</button>
+                    <button className="more_info_btn">Meet our Doctor</button>
                   </HashLink>
                 </div>
               </div>

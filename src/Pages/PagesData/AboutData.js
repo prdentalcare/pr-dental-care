@@ -1,5 +1,6 @@
 const about_long_des = {
-  text: "We'll make sure to deliver the best possible healthcare to all our patients! Of course, we always complement our main services with a customer service oriented approach. We sincerely believe that visiting a dentist shouldn't be a frightening or stressful experience! We provide an equally comfortable experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.",
+  header: "We’re glad you hand your dental health concerns to our skilled hands.",
+  description: "PR's Dental Care is a Quality dental clinic offering general, cosmetic, and restorative dentistry services and provides personalized treatment plans with state-of-the-art technology. We prioritize patient comfort and satisfaction in a welcoming environment.",
 };
 
 export default about_long_des;

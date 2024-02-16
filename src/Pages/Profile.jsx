@@ -1,9 +1,9 @@
 import React from "react";
-import profile_one_img from "./images/Profile_images/female_profile_img.png";
+import profile_one_img from "./images/doc.jpg";
 // import profile_two_img from "./images/Profile_images/female_profile_img.png";
 import "./Profile.css";
 const Profile = () => {
-  const your_profile_details = [
+  const profile_details = [
     {
       id: 1,
       photo: profile_one_img,
@@ -32,7 +32,7 @@ const Profile = () => {
             Meet Our Doctor
           </h2>
           <div className="p_info_container">
-            {your_profile_details.map((e, index) => (
+            {profile_details.map((e, index) => (
               <div className="profile_details" key={index}>
                 <img src={e.photo} alt="profile_image" id="your_profile_image" />
                 <div className="profile_info">
