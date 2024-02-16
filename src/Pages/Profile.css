@@ -7,6 +7,7 @@
   width: 100%;
   gap: 2rem;
   background: #ffccdd;
+  height: 100vh;
 }
 
 .profile_details {
@@ -61,17 +62,6 @@
   margin-right: 9px;
 }
 
-@media screen and (min-width: 1024px) {
-  .profile_section_container {
-    height: 100vh;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .profile_section_container {
-    height: 100vh;
-  }
-}
-
 @media screen and (max-width: 720px) {
   .p_info_container {
     width: 90%;
@@ -101,7 +91,10 @@
   section {
     padding: 0 !important;
   }
+}
+
+@media screen and (max-width: 900px) {
   .profile_section_container {
-    height: 84vh;
+    padding-top: 10vh;
   }
 }

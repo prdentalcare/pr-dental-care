@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.024bf5ba.css",
+    "main.css": "/static/css/main.261c162f.css",
     "main.js": "/static/js/main.b3d98fde.js",
     "static/media/Teeth_Cleaning.jpg": "/static/media/Teeth_Cleaning.9c21b6838c73c7dafd68.jpg",
     "static/media/Dental_Implant.png": "/static/media/Dental_Implant.5195c5b905992f3742f5.png",
@@ -23,11 +23,11 @@
     "static/media/site_con.jpg": "/static/media/site_con.e7a6921b6a59c7cefc56.jpg",
     "static/media/appointment_admin_img.png": "/static/media/appointment_admin_img.ead77caea6d44a2ccc4f.png",
     "index.html": "/index.html",
-    "main.024bf5ba.css.map": "/static/css/main.024bf5ba.css.map",
+    "main.261c162f.css.map": "/static/css/main.261c162f.css.map",
     "main.b3d98fde.js.map": "/static/js/main.b3d98fde.js.map"
   },
   "entrypoints": [
-    "static/css/main.024bf5ba.css",
+    "static/css/main.261c162f.css",
     "static/js/main.b3d98fde.js"
   ]
 }
