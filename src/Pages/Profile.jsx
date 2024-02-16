@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import profile_one_img from "./images/doc.jpg";
 // import profile_two_img from "./images/Profile_images/female_profile_img.png";
 import "./Profile.css";
@@ -21,6 +21,11 @@ const Profile = () => {
         "Dr. Rani is a talented dentist with over three years of experience. She worked in Hyderabad, Gorakhpur, and Jhansi under experienced mentors. Dr. Rani was the top student in her dental college every year, showing her dedication and skill. She's known for doing excellent work and being patient with her patients. She's committed to giving each person personalized care and making their dental experience comfortable.",
     }, */
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <>
       <section>
