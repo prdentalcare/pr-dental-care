@@ -26,13 +26,13 @@ const Home = () => {
                 <h2
                   style={{
                     fontSize: "40px",
-                    margin: "0",
+                    margin: "20px 0",
                     textAlign: "left",
                     lineHeight: "1.2",
                     color: "hsl(218, 70%, 18%)",
                   }}
                 >
-                  Providing Quality Dental Care Since 2023
+                  Providing Quality Dental Care
                 </h2>
                 <p>
                   Caring For The Health And Well Being Of You And Your Family
