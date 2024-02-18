@@ -39,7 +39,7 @@ const Profile = () => {
           <div className="p_info_container">
             {profile_details.map((e, index) => (
               <div className="profile_details" key={index}>
-                <img src={e.photo} alt="profile_image" id="your_profile_image" />
+                <img src={e.photo} alt="profile_image" />
                 <div className="profile_info">
                   <h3 className="profile_name">{e.name}</h3>
                   <h4 className="profile_occupation">{e.occupation}</h4>
