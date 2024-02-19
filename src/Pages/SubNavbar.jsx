@@ -58,12 +58,12 @@ const SubNavbar = () => {
           <div className="SubMenuItems">
             <HashLink to="/#contact-us" onClick={closeMobileMenu}>
               <i className="fa-regular fa-calendar-check"></i>
-              <span>OPD Hours</span>              
+              <span>OPD Hours</span>
             </HashLink>
           </div>
         </div>
         <div className="toggle_menu_icons" onClick={handleClick}>
-          <i className={isActive ? 'fas fa-times fa-xl' : 'fas fa-bars fa-xl'}></i>
+          <i className={isActive ? 'fas fa-times fa-2xl' : 'fas fa-bars fa-2xl'}></i>
         </div>
       </div>
     </>

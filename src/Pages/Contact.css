@@ -57,6 +57,7 @@
 }
 .direction_to_clinic,
 .call_to_clinic {
+  text-decoration: none;
   width: 200px;
   display: flex;
   align-items: center;
@@ -70,9 +71,8 @@
   color: #fff;
 }
 
-.direction_to_clinic a,
-.call_to_clinic a {
-  text-decoration: none;
+.direction_to_clinic span,
+.call_to_clinic span {
   font-size: 15px;
   color: #105b63;
   font-weight: 500;
@@ -83,8 +83,8 @@
   transition: 0.5s;
 }
 
-.direction_to_clinic a:after,
-.call_to_clinic a:after {
+.direction_to_clinic span:after,
+.call_to_clinic span:after {
   content: '>>';
   position: absolute;
   opacity: 0;
@@ -98,14 +98,14 @@
   background-color: #105b63;
 }
 
-.direction_to_clinic:hover a,
-.call_to_clinic:hover a {
+.direction_to_clinic:hover span,
+.call_to_clinic:hover span {
   padding-right: 25px;
   color: #fff;
 }
 
-.direction_to_clinic:hover a:after,
-.call_to_clinic:hover a:after {
+.direction_to_clinic:hover span:after,
+.call_to_clinic:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -212,10 +212,6 @@
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
-  }
-  .direction_to_clinic,
-  .call_to_clinic {
-    width: 80%;
   }
   .copyright_footer {
     width: 100%;

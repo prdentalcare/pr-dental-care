@@ -77,17 +77,19 @@ const Contact = () => {
                 </div>
               ))}
               <div className="d_and_c">
-                <div className="direction_to_clinic">
-                  <a
+                <div>
+                  <a className="direction_to_clinic"
                     href="https://www.google.com/maps/dir//PR's+Dental+Care,+Royal+court+market,+Noida+Extension+Greater+Noida+West,+Panchsheel+Green,+Ithaira,+Ghaziabad,+Uttar+Pradesh+201009/@28.6111887,77.4581972,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cef6fc5b5e259:0xe06a3a734a68b337!2m2!1d77.4581972!2d28.6111887?entry=ttu"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Clinic Direction
+                    <span>Clinic Direction</span>
                   </a>
                 </div>
-                <div className="call_to_clinic">
-                  <a href="tel:8726705475">Call Clinic</a>
+                <div>
+                  <a className="call_to_clinic" href="tel:8726705475">
+                    <span>Call Clinic</span>
+                  </a>
                 </div>
               </div>
             </div>
