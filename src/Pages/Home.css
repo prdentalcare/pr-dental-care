@@ -10,14 +10,15 @@ section {
   padding-top: 30px !important;
 }
 .slider_image {
-  width: 43%;
+  /* width: 43%; */
 }
-.slider_image img {
+.slider_image iframe {
   width: 100%;
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  pointer-events: none;
 }
 
 .short_info {
@@ -44,24 +45,25 @@ section {
   align-content: center;
 }
 .slider-images {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   align-content: center;
   justify-content: center;
   align-items: center;
-  margin: 0px 10px 0px 16px;
 }
 .front_page_info {
+  bottom: 1.5rem;
+  /* color: white; */
+  text-shadow: 0 0 10px #fff;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   text-align: center;
 }
 .front_container {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -75,6 +77,11 @@ section {
   align-content: center;
   gap: 7px;
   justify-content: center;
+}
+.carousel-control-next, .carousel-control-prev {
+  margin: 10px -15px !important;
+  background-color: #fff !important;
+  background-image: linear-gradient(to right, white, #e0cf82, white) !important;
 }
 .front_page_info button {
   height: 45px;
@@ -155,14 +162,10 @@ section {
   width: 400px;
 }
 @media screen and (min-width: 1024px) {
-  .slider-images {
-    width: 90%;
-    height: 500px;
-  }
   .front_page_info p {
     font-size: 21px;
-    text-align: left;
-    width: 529px;
+    /* text-align: left;
+    width: 529px; */
   }
   .clinic_container {
     width: 100%;
@@ -170,14 +173,11 @@ section {
     justify-content: center;
     align-content: center;
   }
-  .slider_image img {
+  .slider_image iframe {
     width: 594px !important;
     height: 409px;
     padding: 0;
     margin: 0;
-  }
-  .front_container {
-    width: 555px;
   }
   .slider_controls {
     position: relative;
@@ -193,35 +193,32 @@ section {
     display: none;
   }
   .front_page_info p {
-    width: 85%;
+    /* width: 85%;
     text-align: left;
-    margin-left: -49px;
+    margin-left: -49px; */
   }
 }
 @media screen and (max-width: 924px) {
   .clinic_info {
     flex-direction: column;
   }
-  .front_page_info {
-    justify-content: space-evenly;
-    height: 280px;
-  }
-  .front_page_info p {
+  .front_page_info h2, .front_page_info p {
+    font-size: small;
     width: 90%;
-    text-align: left;
-    margin-left: -12px;
+    /* text-align: left;
+    margin-left: -12px; */
   }
   .slider-images {
-    height: 500px;
+    /* height: 500px; */
   }
 }
 @media screen and (max-width: 580px) {
   .slider-images {
-    flex-direction: column-reverse;
-    margin-bottom: -50px !important;
-    height: 694px;
+    /* flex-direction: column-reverse; */
+    /* margin-bottom: -50px !important; */
+    /* height: 694px; */
   }
-  .slider_image img {
+  .slider_image iframe {
     background-size: cover;
   }
   .short_info {
@@ -230,10 +227,10 @@ section {
   .slider_controls {
     top: 279px;
   }
-  .front_page_info {
+  /* .front_page_info {
     margin-top: -18px;
     height: 252px;
-  }
+  } */
   .front_container,
   .slider_image {
     width: 90%;
@@ -241,14 +238,21 @@ section {
   .slider_controls {
     display: none;
   }
-  .front_page_info p {
+  .front_page_info h2, .front_page_info p {
+    font-size: x-large;
+    width: 90%;
+    /* text-align: left;
+    margin-left: -12px; */
+  }
+  /* .front_page_info p {
     font-size: 18px;
     margin-top: 10px;
-  }
+  } */
 }
 @media screen and (max-width: 480px) {
-  .slider_image img {
-    width: 100%;
+  .slider_image iframe {
+    height: 74vh;
+    width: 90vw;
     background-position: center;
     background-size: cover;
     display: list-item;
@@ -279,19 +283,15 @@ section {
 @media screen and (max-width: 420px) {
   .slider-images {
     margin: 0;
-    margin-bottom: -50px !important;
-    height: 694px;
-    width: 100%;
-    padding: 60px 0 20px 0 !important;
-    justify-content: flex-end !important;
+    height: 91vh;
   }
   .front_container {
     width: 90%;
   }
-  .front_page_info p {
+  /* .front_page_info p {
     width: 85%;
   }
   .front_page_info h2 {
     width: 90%;
-  }
+  } */
 }

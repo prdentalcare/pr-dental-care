@@ -21,8 +21,8 @@ const Home = () => {
               <ImageSlider></ImageSlider>
             </div>
 
-            <div className="front_container">
-              <div className="front_page_info">
+            {/* <div className="front_container"> */}
+              {/* <div className="front_page_info">
                 <h2
                   style={{
                     fontSize: "40px",
@@ -38,7 +38,7 @@ const Home = () => {
                   Caring For The Health And Well Being Of You And Your Family
                 </p>
                 <div className="social_links"></div>
-              </div>
+              </div> */}
               {/* <div className="slider_controls">
                 <div className="circle_dot_class">
                   <span></span>
@@ -50,7 +50,7 @@ const Home = () => {
                   <span></span>
                 </div>
               </div> */}
-            </div>
+            {/* </div> */}
           </div>
         </div>
 
